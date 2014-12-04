@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:progressbar="http://schemas.android.com/apk/res/com.example.circlepregress"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:text="start"
+        android:layout_marginBottom="10dip"
+        />
+    <com.example.roundprogressbar.CircleProgressBar
+        android:layout_width="60dip"
+        android:layout_height="60dip"
+        android:id="@+id/progressbar"
+        progressbar:circleColor="#999999"
+        progressbar:circleProgressColor="#ff3300"
+        progressbar:circleWidth="3dip"
+        progressbar:ispointer="true"
+        progressbar:pointerColor="#999999"
+        progressbar:pointerWidth="2dip"
+        progressbar:max="100"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:id="@+id/progress_tv"
+        />
+</LinearLayout>

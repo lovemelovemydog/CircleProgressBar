@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <declare-styleable name="CircleProgressBar">
+        <attr name="circleColor" format="color"/>
+        <attr name="circleProgressColor" format="color"/>
+        <attr name="circleWidth" format="dimension"/>
+        <attr name="ispointer" format="boolean"/>
+        <attr name="pointerColor" format="color"/>
+        <attr name="pointerWidth" format="dimension"/>
+        <attr name="max" format="integer"/>
+    </declare-styleable>
+</resources>
